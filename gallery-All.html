@@ -1038,7 +1038,7 @@
 <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 20,
+        amountOfImages: 22,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1395,27 +1395,6 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 16; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 17; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6d5b5c65-cd28-4b38-9cc8-763f90d2dc7f.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/6d5b5c65-cd28-4b38-9cc8-763f90d2dc7f.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
@@ -1435,7 +1414,49 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 17; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 18; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 19; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4715d064-fc3e-44a7-a600-a1aa091e413c.jpeg" alt="" /> -->
                              
@@ -1456,13 +1477,34 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 19; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 20; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/14df5f2c-155c-46f9-972f-be39ea2a9f45.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/14df5f2c-155c-46f9-972f-be39ea2a9f45.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/14df5f2c-155c-46f9-972f-be39ea2a9f45.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/14df5f2c-155c-46f9-972f-be39ea2a9f45.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 21; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c3b47805-9dc6-4a5c-9aa3-5369bad32dc5.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c3b47805-9dc6-4a5c-9aa3-5369bad32dc5.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c3b47805-9dc6-4a5c-9aa3-5369bad32dc5.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/c3b47805-9dc6-4a5c-9aa3-5369bad32dc5.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1653,7 +1695,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 16">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6d5b5c65-cd28-4b38-9cc8-763f90d2dc7f.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1661,7 +1703,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 17">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/6d5b5c65-cd28-4b38-9cc8-763f90d2dc7f.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c07b97ae-1528-4b93-b6f5-df9b8acc32ba.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1669,7 +1711,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 18">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4715d064-fc3e-44a7-a600-a1aa091e413c.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1677,7 +1719,23 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 19">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a97d57bf-c3de-4425-b5c5-fa74318405a4.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4715d064-fc3e-44a7-a600-a1aa091e413c.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 20">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/14df5f2c-155c-46f9-972f-be39ea2a9f45.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <!-- Transition Wrapper 1 -->
+                                    <li class="flex flex-col" x-show="activeImage === 21">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c3b47805-9dc6-4a5c-9aa3-5369bad32dc5.jpeg" alt="All Photos for Luigi&#x27;s Supreme Auto Detail in Grand Island, NE" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2158,68 +2216,68 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167364"
-                                                    name="167364"
+                                                    id="contact-service-167518"
+                                                    name="167518"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Small Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167364" class="ml-3 text-sm font-medium text-gray-700">Small Vehicle Detailing</label>
+                                            <label for="contact-label-service-167518" class="ml-3 text-sm font-medium text-gray-700">Small Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167365"
-                                                    name="167365"
+                                                    id="contact-service-167519"
+                                                    name="167519"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Medium Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167365" class="ml-3 text-sm font-medium text-gray-700">Medium Vehicle Detailing</label>
+                                            <label for="contact-label-service-167519" class="ml-3 text-sm font-medium text-gray-700">Medium Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167366"
-                                                    name="167366"
+                                                    id="contact-service-167520"
+                                                    name="167520"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Large Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167366" class="ml-3 text-sm font-medium text-gray-700">Large Vehicle Detailing</label>
+                                            <label for="contact-label-service-167520" class="ml-3 text-sm font-medium text-gray-700">Large Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167367"
-                                                    name="167367"
+                                                    id="contact-service-167521"
+                                                    name="167521"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Extra Large Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167367" class="ml-3 text-sm font-medium text-gray-700">Extra Large Vehicle Detailing</label>
+                                            <label for="contact-label-service-167521" class="ml-3 text-sm font-medium text-gray-700">Extra Large Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167368"
-                                                    name="167368"
+                                                    id="contact-service-167522"
+                                                    name="167522"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Weekly Wash"
                                             />
-                                            <label for="contact-label-service-167368" class="ml-3 text-sm font-medium text-gray-700">Weekly Wash</label>
+                                            <label for="contact-label-service-167522" class="ml-3 text-sm font-medium text-gray-700">Weekly Wash</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167369"
-                                                    name="167369"
+                                                    id="contact-service-167523"
+                                                    name="167523"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Gift Cards"
                                             />
-                                            <label for="contact-label-service-167369" class="ml-3 text-sm font-medium text-gray-700">Gift Cards</label>
+                                            <label for="contact-label-service-167523" class="ml-3 text-sm font-medium text-gray-700">Gift Cards</label>
                                         </div>
                                         
                                     </div>
@@ -2251,68 +2309,68 @@
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167364"
-                                                    name="167364"
+                                                    id="contact-service-167518"
+                                                    name="167518"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Small Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167364" class="ml-3 text-sm font-medium text-gray-700">Small Vehicle Detailing</label>
+                                            <label for="contact-label-service-167518" class="ml-3 text-sm font-medium text-gray-700">Small Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167365"
-                                                    name="167365"
+                                                    id="contact-service-167519"
+                                                    name="167519"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Medium Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167365" class="ml-3 text-sm font-medium text-gray-700">Medium Vehicle Detailing</label>
+                                            <label for="contact-label-service-167519" class="ml-3 text-sm font-medium text-gray-700">Medium Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167366"
-                                                    name="167366"
+                                                    id="contact-service-167520"
+                                                    name="167520"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Large Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167366" class="ml-3 text-sm font-medium text-gray-700">Large Vehicle Detailing</label>
+                                            <label for="contact-label-service-167520" class="ml-3 text-sm font-medium text-gray-700">Large Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167367"
-                                                    name="167367"
+                                                    id="contact-service-167521"
+                                                    name="167521"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Extra Large Vehicle Detailing"
                                             />
-                                            <label for="contact-label-service-167367" class="ml-3 text-sm font-medium text-gray-700">Extra Large Vehicle Detailing</label>
+                                            <label for="contact-label-service-167521" class="ml-3 text-sm font-medium text-gray-700">Extra Large Vehicle Detailing</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167368"
-                                                    name="167368"
+                                                    id="contact-service-167522"
+                                                    name="167522"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Weekly Wash"
                                             />
-                                            <label for="contact-label-service-167368" class="ml-3 text-sm font-medium text-gray-700">Weekly Wash</label>
+                                            <label for="contact-label-service-167522" class="ml-3 text-sm font-medium text-gray-700">Weekly Wash</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-167369"
-                                                    name="167369"
+                                                    id="contact-service-167523"
+                                                    name="167523"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Gift Cards"
                                             />
-                                            <label for="contact-label-service-167369" class="ml-3 text-sm font-medium text-gray-700">Gift Cards</label>
+                                            <label for="contact-label-service-167523" class="ml-3 text-sm font-medium text-gray-700">Gift Cards</label>
                                         </div>
                                         
                                     </div>
